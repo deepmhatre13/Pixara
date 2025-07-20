@@ -2,11 +2,15 @@ from pathlib import Path
 from datetime import timedelta
 import os
 from pathlib import Path
+import dj_database_url
 from dotenv import load_dotenv
 
 load_dotenv()  
 
 
+DATABASES = {
+    'default': dj_database_url.config(default='sqlite:///db.sqlite3')
+}
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # 🔐 Load secret key and debug from .env
