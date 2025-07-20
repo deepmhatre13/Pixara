@@ -1,10 +1,10 @@
 import React from 'react';
 import SettingsSection from '../components/SettingsSection';
 
-const Settings = () => {
+function Set(){
   return (
     <SettingsSection />
   );
 };
 
-export default Settings;
+export default Set;

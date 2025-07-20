@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Explore from './pages/Explore';
-import Settings from './components/settings';
+import Set from './components/Set';
 
 function App() {
   return (
@@ -58,9 +58,9 @@ function App() {
                     </div>
                   </ProtectedRoute>
                 } />
-                <Route path="/settings" element={
+                <Route path="/Set" element={
   <ProtectedRoute>
-    <Settings />
+    <Set />
   </ProtectedRoute>
 } />
 
