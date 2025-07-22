@@ -15,7 +15,7 @@ const Sidebar = () => {
     //{ icon: PlusSquare, label: 'Create', path: '/create' },
     //{ icon: Heart, label: 'Activity', path: '/activity' },
     { icon: User, label: 'Profile', path: '/profile' },
-    { icon: Settings, label: 'Settings', path: '/Settings' },
+    { icon: Settings, label: 'Settings', path: '/Set' },
   ];
 
   if (!isAuthenticated) return null;
